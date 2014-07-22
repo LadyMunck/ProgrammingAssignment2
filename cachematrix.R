@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## The function below computes the inverse of the matrix and sets the value in the cache. 
-## It skips the computation process on any values that have already been computed
+## It skips the computation process on any values that have already been computed.
 
 cacheSolve <- function(x, ...) {
         inv <- x$getinverse()
